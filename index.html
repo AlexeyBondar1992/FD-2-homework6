@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<form id="fileForm" name="fileForm">
+    <label for="file"> Choose Image:</label>
+    <input type="file" name="file" id="file">
+</form>
+<div id="main">
+    <div id="image">
+        <canvas id="backgroundImage"></canvas>
+        <canvas id="activeField"></canvas>
+    </div>
+</div>
+<form id="saveForm" name="saveForm">
+    <label for="fileName">File name:</label>
+    <input type="text" name="fileName" id="fileName" required>
+    <button>Save Image</button>
+</form>
+
+<script src="app.js"></script>
+</body>
+</html>
